@@ -208,4 +208,4 @@ if __name__ == "__main__":
     parser.add_argument("src", help="src")
     args = parser.parse_args()
     print("hipifying "+ str(args.src))
-    hipify("/opt/rocm-7.2.0/bin", args.src, args.output)
+    hipify("/opt/rocm-7.2.0/bin/hipify-perl", args.src, args.output)
